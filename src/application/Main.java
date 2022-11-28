@@ -16,29 +16,25 @@ public class Main {
         Talkative t9= new Talkative(9);
         Talkative t10= new Talkative(10);
         //=====================================================
-        Thread tr1= new Thread(t1);
-        Thread tr2= new Thread(t1);
-        Thread tr3= new Thread(t1);
-        Thread tr4= new Thread(t1);
-        Thread tr5= new Thread(t1);
-        Thread tr6= new Thread(t1);
-        Thread tr7= new Thread(t1);
-        Thread tr8= new Thread(t1);
-        Thread tr9= new Thread(t1);
-        Thread tr10= new Thread(t1);
 
-        tr1.start();
-        tr2.start();
-        tr3.start();
-        tr4.start();
-        tr5.start();
-        tr6.start();
-        tr7.start();
-        tr8.start();
-        tr9.start();
-        tr10.start();
 
-// Apres l'execution nous constatons que number devient la valeur de 10 eme objet
+
+
+
+
+
+        //=====================================================
+        new Thread(t1).start();
+        new Thread(t2).start();
+        new Thread(t3).start();
+        new Thread(t4).start();
+        new Thread(t5).start();
+        new Thread(t6).start();
+        new Thread(t7).start();
+        new Thread(t8).start();
+        new Thread(t9).start();
+        new Thread(t10).start();
+        
 
 
 

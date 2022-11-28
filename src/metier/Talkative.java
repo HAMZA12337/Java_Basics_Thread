@@ -2,7 +2,7 @@ package metier;
 
 public class Talkative implements Runnable{
 
-    static private int number;
+    private int number;
 
     public Talkative(int number) {
         this.number=number;
@@ -11,8 +11,10 @@ public class Talkative implements Runnable{
 
     @Override
     public void run() {
-        for(int i=0;i<100;i++){
-            System.out.println(number);
+        for(int i=0;i<3;i++){
+
+    System.out.println(number);
+
         }
     }
 }
