@@ -34,7 +34,6 @@ public class Main {
         new Thread(t8).start();
         new Thread(t9).start();
         new Thread(t10).start();
-        
 
 
 

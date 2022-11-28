@@ -14,6 +14,12 @@ public class Talkative implements Runnable{
         for(int i=0;i<3;i++){
 
     System.out.println(number);
+            Thread.currentThread().setPriority(10);
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
 
         }
     }
